@@ -18,7 +18,7 @@ public class Fabricante {
 		pais.fabricados++;
 	}
 	
-	public String fabricaMayorVentas() {
+	public static String fabricaMayorVentas() {
 		
 		Fabricante x = fabricas.get(0);
 		

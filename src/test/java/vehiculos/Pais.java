@@ -14,7 +14,7 @@ public class Pais {
 		paises.add(this);
 	}
 	
-	public String paisMasVendedor() {
+	public static String paisMasVendedor() {
 		
 		Pais x = paises.get(0);
 		
