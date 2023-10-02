@@ -18,7 +18,7 @@ public class Fabricante {
 		pais.fabricados++;
 	}
 	
-	public static String fabricaMayorVentas() {
+	public static Fabricante fabricaMayorVentas() {
 		
 		Fabricante x = fabricas.get(0);
 		
@@ -31,7 +31,7 @@ public class Fabricante {
 			
 		}
 		
-		return x.nombre;
+		return x;
 	}
 
 	public String getNombre() {
